@@ -24,9 +24,12 @@ header{
     border-radius: 50%;
     height: 30rem;
 }
-.ligh-mode{
+.dark-mode{
     p, h1{
         color: white;
     }
     background-color: rgb(8, 8, 8);
+    .svg-dark-mode{
+        filter: invert(100%);
+    }
 }
