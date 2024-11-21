@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+    
+}
+.svg-dark-mode{
+    margin-left: 2rem;
+    &.svg-dark-mode{
+        cursor: pointer;
+    }
+}
+
+.image{
+    border: 1px solid red;
+    padding: 2rem;
+    border-radius: 50%;
+}
+.img{
+    border-radius: 50%;
+    height: 30rem;
+}
+.ligh-mode{
+    p, h1{
+        color: white;
+    }
+    background-color: rgb(8, 8, 8);
+}
